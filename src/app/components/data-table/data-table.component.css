@@ -1,0 +1,30 @@
+table {
+    width: 80%;
+  }
+
+ 
+  .mat-header-cell {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    
+    font-size: large;
+    background-color: cadetblue;
+  }
+  
+  .mat-cell {
+    text-align: center;
+    justify-content:center;
+  }
+
+
+  
+  
+  div{
+    width: 100%;
+   padding-left: 5%;
+    padding-right: 1%; 
+    background-color: #aef2d3; 
+  }
+
+  
