@@ -22,9 +22,16 @@ table {
   
   div{
     width: 100%;
-   padding-left: 5%;
+   padding-left: 2%;
     padding-right: 1%; 
     background-color: #aef2d3; 
   }
 
-  
+  .paginator{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+    
+  }
