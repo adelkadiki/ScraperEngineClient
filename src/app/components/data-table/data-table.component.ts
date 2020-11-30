@@ -8,7 +8,7 @@ import { EventServiceService } from 'src/app/services/event-service.service';
   templateUrl: './data-table.component.html',
   styleUrls: ['./data-table.component.css']
 })
-export class DataTableComponent implements OnInit, AfterViewInit{
+export class DataTableComponent implements OnInit{
 
   @ViewChild(MatSort , {static: true}) sort:MatSort;
   @ViewChild(MatPaginator , {static: true}) paginator:MatPaginator;
@@ -28,11 +28,7 @@ export class DataTableComponent implements OnInit, AfterViewInit{
   }
 
   
-  ngAfterViewInit(){
-    
-  }
-
-  addComputeworld(){
+    addComputeworld(){
     this.eventService.addComputerworldData().subscribe(data=>{
       console.log("Computerworld data");
     }, err=>{
